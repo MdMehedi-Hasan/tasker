@@ -36,8 +36,8 @@ export default function AddTaskModal({ isOpen, setIsOpen }) {
                     <input className='rounded' type="date" name="" id="" {...register("deadline")} />
                 </div>
                 <div className='flex flex-col'>
-                    <label htmlFor="">Assign to</label>
-                    <select name="" id="" className='rounded' {...register("assignee")}>
+                    <label htmlFor="">Assign to </label>
+                    <select name="" id="" className='rounded' {...register("assignedTo")}>
                         <option value="Mehedi">Mehedi</option>
                         <option value="Miraz">Miraz</option>
                         <option value="Mohan">Mohan</option>
