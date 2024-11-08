@@ -11,3 +11,4 @@ const TaskDetailsModal = ({ isOpen, setIsOpen, id }) => {
 };
 
 export default TaskDetailsModal;
+ 
