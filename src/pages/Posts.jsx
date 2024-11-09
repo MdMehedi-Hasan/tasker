@@ -1,8 +1,7 @@
-import React from "react";
-import { useGetAllPostsQuery } from "../redux/api/baseUrl";
+import { useGetAllPostsQuery } from "../redux/api/baseApi";
 
 const Posts = () => {
-  const { data, error, isLoading } = useGetAllPostsQuery();
+  const { data } = useGetAllPostsQuery();
   console.log({ data });
   return (
     <div>
